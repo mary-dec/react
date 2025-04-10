@@ -6,9 +6,9 @@ interface CharacterComponentProps {
 }
 
 export const CharacterComent = ({item, children}: CharacterComponentProps)
-   return (
-        <div>
-                <h3>{item.name} {item.surname}</h3>
+return (
+        <div className='my-10 border-2'>
+                <h3 className='text-2xl'>{item.name} {item.surname}</h3>
                 <p>children</p>
         </div>
     );
