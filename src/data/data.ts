@@ -1,3 +1,5 @@
+import {ICharacter} from "../models/ICharacter.ts";
+
 export const simpsons: ICharacter[] = [
     {
         name: 'Bart',
